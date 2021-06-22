@@ -1,0 +1,20 @@
+.search {
+  margin: 0 auto;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #121629;
+}
+
+.searchIcon {
+  padding: 0 5px 0 5px;
+}
+
+.searchBox {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  width: 150px;
+  line-height: 30px;
+  border-left: 1px solid #121629;
+}

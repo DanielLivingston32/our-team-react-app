@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffffe;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  color: #232946;
+}
+
+.card-container img {
+  width: 150px;
+  border: 1px solid #121629;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.phoneIcon {
+  color: #4abf70;
+}
